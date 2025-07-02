@@ -18,6 +18,12 @@ if not settings.configured:
         MEDIA_URL='/media/',
         STATIC_URL='/static/',
         MIDDLEWARE_CLASSES=[],
+        TEMPLATES=[
+            {
+                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "APP_DIRS": True,
+            },
+        ]
         )
 
     settings.configure(**settings_dict)
