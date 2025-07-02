@@ -1,4 +1,5 @@
 dist/*
+build/*
 django_form_utils.egg-info/*
 tests/media/tiny_png_*
 HGREV
